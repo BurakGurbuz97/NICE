@@ -5,7 +5,8 @@ from typing import Tuple, Optional, Any
 import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
-from avalanche.benchmarks import TCLExperience
+#from avalanche.benchmarks import TCLExperience
+from avalanche.benchmarks.scenarios.deprecated.benchmark_wrapper_utils import TCLExperience
 from torch.utils.data import DataLoader
 
 
