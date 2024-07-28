@@ -7,7 +7,8 @@ from typing import Tuple, Dict
 
 from avalanche.benchmarks import GenericCLScenario
 from avalanche.benchmarks.classic import SplitCIFAR10, SplitCIFAR100, SplitFMNIST, SplitMNIST, SplitTinyImageNet
-from avalanche.benchmarks.generators import benchmark_with_validation_stream, nc_benchmark
+#from avalanche.benchmarks.generators import benchmark_with_validation_stream, nc_benchmark
+from avalanche.benchmarks import nc_benchmark, benchmark_with_validation_stream#now its 0.5.0 ver for ava...
 from avalanche.benchmarks.datasets import EMNIST
 import numpy as np
 import torch
